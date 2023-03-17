@@ -14,7 +14,7 @@ public class StudentPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
     @FindBy(xpath = "//div/input[1]")
-    public WebElement searchBtn;
+    public WebElement searchInputBox;
 
     @FindBy(xpath = "//table//tr/td[2]")
     public List<WebElement> searchStudentInfoByName;
